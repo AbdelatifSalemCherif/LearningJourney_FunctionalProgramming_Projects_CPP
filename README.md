@@ -38,7 +38,7 @@ Compile and Run (e.g., press Ctrl + F5 in Visual Studio). The selected project w
 
 
 
-'''
+```
 
 📂 Repository Architecture (File Tree)
 
@@ -102,7 +102,7 @@ The project is structured professionally, separating logic, UI (Menus), data, an
 
 &#x20;       └── StonePaperScissorsGame.cpp
 
-'''
+```
 
 
 
