@@ -115,9 +115,13 @@ An interactive CLI game testing math skills, demonstrating strong control over g
 
 - ***Detailed Statistics***: After all rounds finish, the game displays a detailed summary table summarizing the player's name, rounds won, rounds lost, draws, and the ultimate winner.
 
-## 🛠️ Shared Libraries & Clean Code (```HighlyUsedLibraries```)
+## 🛠️ Shared Libraries (```HighlyUsedLibraries``` & ```SharedBankLogic```)
 
 To adhere to the **DRY** (**Don't Repeat Yourself**) principle, I created a folder for highly reusable functions used across all projects. This includes essential **UI** and validation tools such as:
+
+- ```RandomNumberInRange()```
+
+- ```ReadNumberInRange()```
 
 - ```ResetScreen()```
 
@@ -128,6 +132,14 @@ To adhere to the **DRY** (**Don't Repeat Yourself**) principle, I created a fold
 - ```PrintMenu()```
 
 - ```PrintCard()```
+
+## 🧩 Centralized Architecture (```ProjectsCollectionHeader```)
+
+To maintain a clean and scalable codebase, I implemented a centralized ```ProjectsCollectionHeader.h```. Instead of having multiple `main()` functions scattered across different projects, this approach follows a modular design:
+
+- **Single Entry Point:** The `Main.cpp` file acts as the sole orchestrator, importing this header and calling the specific `Run()` function for the desired project.
+- **Improved Maintainability:** This structure eliminates clutter, prevents naming conflicts, and allows for seamless switching between projects by simply calling their respective `Run()` functions from the central header.
+
 
 Created by
 ### Abdelatif SALEM CHERIF
