@@ -24,7 +24,7 @@ The project is structured professionally, separating logic, UI (Menus), data, an
 ```
 📂 Projects_FunctionalProgramming_CPP/
 |
-├──📂 HighlyUsedLibraries/         # Shared utility functions and general-purpose tools
+├──📂 HighlyUsedLibraries/           # Shared utility functions and general-purpose tools
 |   ├── CheckNumbersInRange.h
 |   ├── MyCharProcess.h
 |   ├── MyInput.h
@@ -55,13 +55,13 @@ The project is structured professionally, separating logic, UI (Menus), data, an
     │   ├── Clients.txt
     │   └── Users.txt
     |
-    ├──📂 MathGame/                # Highly customizable Math Game
+    ├──📂 MathGame/                  # Highly customizable Math Game
     │   └── MathGame.cpp
     |
-    ├──📂 StonePaperScissorsGame/  # Interactive CLI Game
+    ├──📂 StonePaperScissorsGame/              # Interactive CLI Game
     |   └── StonePaperScissorsGame.cpp
     |
-    └──📂 ProjectsCollectionHeader/
+    └──📂 ProjectsCollectionHeader/            # Grouping Projects In One Header File 
         └── ProjectsCollectionHeader.h
 ```
 
