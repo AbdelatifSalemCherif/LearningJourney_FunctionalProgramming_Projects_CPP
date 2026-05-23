@@ -76,7 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries\Headers;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -91,7 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries\Headers;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -106,7 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries\Headers;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -121,7 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries\Headers;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,11 +131,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="HighlyUsedLibraries\Headers\CheckNumbersInRange.h" />
-    <ClInclude Include="HighlyUsedLibraries\Headers\MyCharProcess.h" />
-    <ClInclude Include="HighlyUsedLibraries\Headers\MyInput.h" />
-    <ClInclude Include="HighlyUsedLibraries\Headers\MyOutput.h" />
-    <ClInclude Include="HighlyUsedLibraries\Headers\MyStringProcess.h" />
+    <ClInclude Include="HighlyUsedLibraries\CheckNumbersInRange.h" />
+    <ClInclude Include="HighlyUsedLibraries\MyCharProcess.h" />
+    <ClInclude Include="HighlyUsedLibraries\MyInput.h" />
+    <ClInclude Include="HighlyUsedLibraries\MyOutput.h" />
+    <ClInclude Include="HighlyUsedLibraries\MyStringProcess.h" />
     <ClInclude Include="Projects\Headers\ATMDataTypes.h" />
     <ClInclude Include="Projects\Headers\ATMMenues.h" />
     <ClInclude Include="Projects\Headers\ATMServices.h" />
